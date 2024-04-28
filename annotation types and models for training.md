@@ -1,6 +1,3 @@
-annotation types and models for training.
-
-markdown_content = """
 # Annotation Types and Suitable Models for Training
 
 ## 1. Bounding Boxes
@@ -34,7 +31,7 @@ markdown_content = """
 - **Models**:
   - **SCNN (Spatial CNN)**: Enhances traditional CNNs to better model the spatial relationships, ideal for tasks requiring understanding of lines and geometries in the context, such as roads.
   - **LaneNet**: Specifically designed to detect lanes by modeling them as lines which might be beneficial in simpler setups or dedicated lane detection tasks.
-"""
+
 
 # Save to a markdown file
 file_path = '/mnt/data/Annotation_Types_and_Models.md'
